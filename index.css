@@ -1,0 +1,79 @@
+:root {
+    --violet1 : #a993fe;
+    --violet2 : #7e61e7;
+}
+
+/* Ajoutez ces styles dans votre fichier index.css */
+
+body {
+    color : #fff;
+    background-color: #060417;
+  }
+
+.nav-wrapper {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.5 rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(50px);
+}
+
+header {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border: 1px solid #a993fe;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.login {
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3 ease
+}
+.login:hover {
+    color : var(--violet1);
+    background: (var(--violet1));
+    outline: 1.5px solid var(--violet1);
+}
+/* Styles pour les articles */
+div {
+    background-color: #7e61e7;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #f4f4f4;
+    font-size: 1.3rem;
+}
+
+/* Style pour les liens des articles */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}

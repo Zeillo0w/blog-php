@@ -1,0 +1,77 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #060417;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.logout{
+    color: #d66363;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #7e61e7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    padding-bottom: 50px;
+    }
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #a993fe;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.form-card {
+    background-color: #a993fe;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.article-table th, .article-table td {
+    border: 1px solid #a993fe;
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+}
+
+.article-table th {
+    background-color: #a993fe;
+    color: #333;
+}
+
+.article-content {
+    cursor: pointer;
+    color: #0366d6;
+    text-decoration: underline;
+}

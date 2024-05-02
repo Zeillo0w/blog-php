@@ -1,0 +1,147 @@
+:root {
+    --violet1 : #a993fe;
+    --violet2 : #7e61e7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #060417;
+    color: #fff;
+}
+
+header {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border: 1px solid #a993fe;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header a {
+    background-color: var(--violet1);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+header a:hover {
+    background-color: var(--violet2);
+}
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--violet2);
+    color: #fff;
+}
+
+.login {
+    color: #d66363;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.article-card {
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.article-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article-content {
+    margin-top: 10px;
+}
+
+.article-meta {
+    margin-top: 20px;
+    text-align: right;
+    font-style: italic;
+}
+
+.comment {
+    border-bottom: 1px solid var(--violet1);
+    padding-bottom: 10px; /* Ajustez la valeur de marge inférieure selon vos préférences */
+}
+
+.comment:last-child {
+    border-bottom: none; /* Pour supprimer la bordure inférieure du dernier commentaire */
+}
+
+
+.comment-card {
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.comment-form {
+    margin-top: 50px;
+    border: solid 1px #7e61e7;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.comment-form h2{
+    text-align: center;
+}
+
+.comment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.comment-form input[type="submit"] {
+    background-color: var(--violet1);
+    color: #fff;
+    cursor: pointer;
+}
+
+.comment-form input[type="submit"]:hover {
+    background-color: var(--violet2);
+}
+
+.commenter-name {
+    color: var(--violet1);
+}
